@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GrayscaleComponent } from '../components/grayscale/grayscale.component';
 import { StartpageComponent } from '../components/startpage/startpage.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
@@ -16,7 +15,6 @@ import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    GrayscaleComponent,
     StartpageComponent,
     NavbarComponent,
     HeaderComponent,
