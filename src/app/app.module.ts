@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SignupComponent } from './signup/signup.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +24,10 @@ import { FooterComponent } from './footer/footer.component';
     SignupComponent,
     ContactComponent,
     FooterComponent,
+    CalendarComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
